@@ -50,4 +50,5 @@ int main() {
          << dp[1][n] << endl;
 
     return 0;
+
 }
