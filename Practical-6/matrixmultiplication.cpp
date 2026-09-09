@@ -18,7 +18,7 @@ int main() {
     // DP table
     int dp[n + 1][n + 1];
 
-    // Cost of multiplying one matrix is 0
+// Cost of multiplying one matrix is 0    
     for (int i = 1; i <= n; i++) {
         dp[i][i] = 0;
     }
