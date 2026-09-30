@@ -9,7 +9,7 @@ int graph[MAX][MAX];
 int V;
 
 void BFS(int start) {
-    queue<int> q;
+    queue<int> q;  // first In First out
     visited[start] = true;
     q.push(start);
 
